@@ -17,6 +17,9 @@ Layla were created using the Unity3D Game Engine
 8. Build the scene with Addressable Default Build.
 9. Addressables will give 4 files (two .bundle, one json and hash file)
 10. Upload these 4 files to the website respectively.
+11. Add title and description.
+12. Finally click the save button.
+13. You can update the scene whenever you want.
 ### Development Tools and SDKs
 [Unity3D Game Engine](https://unity.com/) <br/>
 [Oculus Integration SDK](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) <br/>
