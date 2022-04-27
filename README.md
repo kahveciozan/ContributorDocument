@@ -1,4 +1,4 @@
-# Contributor Documentation LAyla VR
+# Contributor Documentation Layla VR
 Meditation App for Oculus Quest 
 ![Error](https://github.com/kahveciozan/LaylaVR/blob/public/Assets/Sprites/LaylaLogo.png)
 ## What is LAYLA
