@@ -13,10 +13,10 @@ Layla were created using the Unity3D Game Engine
 4. Add  `OvrCameraRig.prefab` to Hierarchy. This prefab includes Darker Effect, some particle effects(virtual breahing etc.) UI(loading screen, mood tracker, rating panel and finish panel).
 5. Desing and/or develop your original scene.
 6. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
-7. Add Addressavle library to your unity project.
+7. Add Addressables library(Addressable Version 1.19.11.) to your unity project. This is very important. Otherwise there may be problems loading the scenes.
 8. Build the scene with Addressable Default Build.
 9. Addressables will give 4 files (two .bundle, one json and hash file)
-10. Upload these 4 files to the website.
+10. Upload these 4 files to the website respectively.
 ### Development Tools and SDKs
 [Unity3D Game Engine](https://unity.com/) <br/>
 [Oculus Integration SDK](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) <br/>
@@ -29,13 +29,14 @@ Layla were created using the Unity3D Game Engine
 3. *Excitement*
 
 - Be careful not to be too similar to scenes that have been made before. <br/>
-- Make sure the gameplay length is longer than 5 minutes and less than 15 minutes.
+- Make sure the gameplay length is longer than 3 minutes and less than 12 minutes.
 ### Avoid doing these
 - Don't change any ready prefabs, you can use it in your scene but never change it.
 - Don't call at any time  `Application.Quit()` `SceneManager.LoadScene()` `SceneManager.LoadSceneAsync()`
 - Don't delete or modify any files in the project
 - Don't use coptright audios, logos , 3D models and any assets.
-- Don't use canvas.
+- Don't use canvas and UI objects.
+- Disable hands and controllers.
 ### Configure Unity Project Settings
 - Build Settings > Texture Compression : ASTC
 - Switch Project to Android
