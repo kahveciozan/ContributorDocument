@@ -12,10 +12,11 @@ Layla were created using the Unity3D Game Engine
 3. Delete Maincamera.
 4. Add  `OvrCameraRig.prefab` to Hierarchy. This prefab includes Darker Effect, some particle effects(virtual breahing etc.) UI(loading screen, mood tracker, rating panel and finish panel).
 5. Desing and/or develop your original scene.
-6. Add Addressavle library to your unity project.
-7. Build the scene with Addressable Default Build.
-8. Addressables will give 4 files (two .bundle, one json and hash file)
-9. Upload these 4 files to the website.
+6. You can add our ready-mate exercises to your own scene. [Prefabs](https://www.exampleprefab.com)
+7. Add Addressavle library to your unity project.
+8. Build the scene with Addressable Default Build.
+9. Addressables will give 4 files (two .bundle, one json and hash file)
+10. Upload these 4 files to the website.
 ### Development Tools and SDKs
 [Unity3D Game Engine](https://unity.com/) <br/>
 [Oculus Integration SDK](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) <br/>
